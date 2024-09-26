@@ -1,11 +1,10 @@
-	# 先導入後面會用到的套件
 import requests # 請求工具
 from bs4 import BeautifulSoup # 解析工具
 import time # 用來暫停程式
  
 # 要爬的股票
 stock = ["1101","2330","2317"]
-	for i in range(len(stock)): # 迴圈依序爬股價
+for i in range(len(stock)): # 迴圈依序爬股價
 
 	    # 現在處理的股票
 

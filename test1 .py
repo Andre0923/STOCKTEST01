@@ -32,10 +32,10 @@ for i in range(len(stock)):  # 迴圈依序爬取股价
     # 用 Telegram Bot 回报股价
 
     # Bot Token（请替换为您的实际Token）
-    token = "your_bot_token_here"
+    token = "7916476342:AAHWpntwZiTkojAWOA_804_OomCodEl9MbI"
 
     # 使用者ID（请替换为您的实际Chat ID）
-    chat_id = "your_chat_id_here"
+    chat_id = "7729879668"
 
     # Bot发送讯息
     url = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={chat_id}&text={message}"

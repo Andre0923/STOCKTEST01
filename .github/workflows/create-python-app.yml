@@ -1,4 +1,4 @@
-name: Get Stock Price 
+name: "Get Stock Price"
 
 on:
   schedule:

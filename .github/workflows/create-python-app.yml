@@ -1,4 +1,4 @@
-name: "Get Stock Price"
+name: Get Stock Price
 
 on:
   schedule:
@@ -28,7 +28,7 @@ jobs:
           pip install beautifulsoup4
 
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 
 
       - name: Run Python script
         run: python test1.py
